@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body #home {
+    padding-top: 55px;
+}
+
+#home .col-lg-7 {
+    transition: transform 0.5s ease;
+}
+#home .col-lg-7:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+#home .img-thumbnail {
+    margin: auto;
+    width: 380px;
+    height: 500px;
+    border-radius: 75% 65% 105% 65%;
+    overflow: auto;
+    animation: floatImg 5s ease-in-out infinite;
+}
+#home img {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+}
+@keyframes floatImg {
+    50%{
+        transform: translateY(10px);
+        border-radius: 65% 75% 65% 105%;
+    }
+}
+
+/***********************************************
+#home img{
+    animation: floatImg 4s ease-in-out infinite;
+}
+@keyframes floatImg{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-2.4rem);
+    }
+    50%{
+        transform: translateX(2.4rem);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+************************************************/
+
+#about a i{
+    transition: transform 0.5s ease;
+}
+#about a i:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+#experience div .card{
+    transition: transform 0.5s ease;
+}
+#experience div .card:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    box-shadow: 10px 8px 1px gray;
+}
+
+
+
+
+
+/* MEDIA QUIRIES */
+/*MEDIA FOR RESPONSIVE DISPLAY HOME DIVISION TOP*/
+
+
+
+
