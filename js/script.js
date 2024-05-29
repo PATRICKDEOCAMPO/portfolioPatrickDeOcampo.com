@@ -61,6 +61,7 @@ ScrollReveal().reveal('#experience div .card-footer .webDevelopment', {origin: '
 ScrollReveal().reveal('#experience div .card-footer .ITSystemAdministration', {origin: 'left'});
 ScrollReveal().reveal('#experience div .card-footer .graphicDesign', {origin: 'right'});
 
+
 /* CONTACT SECTION SCROLL */
 ScrollReveal().reveal('#contact h1', {origin: 'top'}); // contact me header
 ScrollReveal().reveal('#contact div .fullName', {origin: 'left'}); // class: fullName
